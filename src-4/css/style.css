@@ -1,0 +1,152 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Figtree' , sans-serif;
+    
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container{
+    display: flex;
+}
+
+.container .content{
+    background-color:hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    max-width: 381px;
+    padding: 24px;
+    border-radius: 20px;
+    border: 1px solid;
+    box-shadow: 8px 8px;
+    gap: 17px;
+}
+
+.container .content  .img-content{
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+.container .content .learning{
+background-color: hsl(47, 88%, 63%);
+   font-weight: 800;
+   font-size: 14px;
+   max-width: 82px;
+   padding: 4.8px;
+   border-radius: 5px;
+   text-align: center;
+   margin-top: 12px;
+}
+
+.container .content .date-publication{
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.container .content h1{
+    font-size: 24px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.container .content p{
+    font-weight: 300;
+    margin-right: 12px;
+    font-size: 16px;
+    color: hsl(0, 0%, 50%);
+    line-height: 1.5;
+}
+
+.container .content .info-user{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.container .content .user-photo{
+    max-width: 32px;
+}
+
+.container .content .name-user{
+    font-size: 15px;
+    font-weight: 800;
+}
+footer{
+    background-color:hsl(234, 89%, 64%);
+}
+.attribution { font-size: 11px; text-align: center; text-decoration: none;}
+
+
+
+
+@media(max-width:425px){
+
+    .container .content{
+        max-width:280px;
+        padding: 22px;
+        box-shadow: 5px 5px 5px 5px;
+    }
+
+    .container .content h1{
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    .container .content p{
+        font-size: 14px;
+    }
+
+}
+
+@media(max-width:414px){
+
+    .container .content{
+        max-width:325px;
+    }
+
+    .container .content p{
+        font-size: 12px;
+}
+
+}
+
+
+
+
+@media(max-width:320px){
+    .container .content{
+        max-width:280px;
+    }
+
+    .container .content p{
+        font-size: 12px;
+}
+}
+
+@media(max-width:280px){
+    .container .content{
+        max-width:250px;
+    }
+
+    .container .content .date-publication{
+        font-size: 12px;
+    }
+
+    .container .content h1{
+        font-size: 16px;
+    }
+
+    .container .content p{
+        font-size: 10px;
+}
+}

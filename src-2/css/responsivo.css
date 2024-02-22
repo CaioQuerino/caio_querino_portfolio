@@ -1,0 +1,128 @@
+
+*{
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    color: hsl(212, 45%, 89%);
+    font-family: 'outfit';
+    min-height: 100vh;
+    display: flex; 
+    justify-content: center;
+
+}
+
+.content{
+    background-color: white;
+    width: 322px;
+    height: 498px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .content .image-qr-code{
+        width: 288px;
+        height: 288px;
+        margin: 0 auto;
+        border-radius: 10px;
+        margin-top: 17px;
+        margin-bottom: 0px;
+}
+
+.container .content .title{
+    font-size: 22px;
+    font-weight: 700;
+    color:  hsl(218, 44%, 22%);
+    text-align: center;
+    margin: 17px 17px 23px 17px;
+}
+
+.container .content .paragraph{
+    font-size: 15px;
+    font-weight: 400;
+    color: #7B879D;
+    text-align: center;
+    margin: 0px 30px 0px 30px;
+}
+
+.attribution{
+    background-color: #333;
+    text-align: center;
+    color: rgb(94, 94, 165);
+}
+
+    
+    
+    
+
+@media(max-width:391px){
+    .container{
+        color: hsl(212, 45%, 89%);
+        font-family: 'outfit';
+        min-height: 100vh;
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .content{
+        width: 300px;        
+    }
+    
+    .container .content .image-qr-code{
+        max-width: 300px;
+    }
+    
+    .container .content .title{
+        font-size: 25px;
+    }
+    
+    .container .content .paragraph{
+        font-size: 15px;
+        margin:25px;
+    
+    }
+
+    .attribution{
+        background-color: #333;
+        text-align: center;
+        color: rgb(94, 94, 165);
+    }
+    
+
+
+  
+}
+
+
+
+@media(max-width:390px){
+    .container .content .image-qr-code{
+        width: 287px;
+        height: 288px;
+    }
+
+    .container .content .title{
+        font-size: 22px;
+        font-weight: 700;
+        color:  hsl(218, 44%, 22%);
+        text-align: center;
+        margin: 17px 25px 3px 25px;
+    }
+.content{
+    width: 321px;
+    height: 497px;   
+}
+
+.container .content .paragraph{
+    margin: 17px 28px 3px 28px;
+}
+
+}
+
+@media(max-width:360px){
+
+
+}

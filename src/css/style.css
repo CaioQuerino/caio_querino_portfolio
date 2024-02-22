@@ -1,0 +1,95 @@
+/* Estilos gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-image: linear-gradient(#FFFA00, #7200FF);
+    background-attachment: fixed;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.cabecalho {
+    background-color: hwb(267 0% 0%);
+    padding: 0px 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho h1,
+.cabecalho .slogan {
+    font-family: 'Advent Pro', sans-serif;
+    color: hsl(0, 0%, 100%);
+}
+
+.cabecalho h1 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.cabecalho .slogan {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.cabecalho nav ul {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho nav ul li a {
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+
+.cabecalho nav ul li a:hover {
+    color: #FFFA00;
+}
+
+/* Estilos dos cartões */
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.card {
+    width: calc(33.33% - 20px);
+    padding: 20px;
+    margin: 10px;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 10px;
+    font-family: 'outfit';
+    color: hsl(218, 44%, 22%);
+}
+
+/* Estilos individuais para cada cartão */
+.card1 {
+    /* Estilos específicos para o primeiro cartão */
+    background-color: rgba(173, 216, 230, 0);
+}
+
+.card2 {
+    /* Estilos específicos para o segundo cartão */
+    background-color: rgba(144, 238, 144, 0);
+}
+
+.card3 {
+    /* Estilos específicos para o terceiro cartão */
+    background-color: rgba(240, 128, 128, 0);
+}

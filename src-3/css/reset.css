@@ -1,0 +1,14 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'inter';
+}
+
+a{
+    text-decoration: none;
+color: black;
+}
+
+li{
+list-style: none;
+}
